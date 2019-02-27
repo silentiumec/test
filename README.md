@@ -15,6 +15,6 @@ npm run webdriver
 ### Run Protractor tests (in another terminal window)
 
 ```
-npm run test
+npm run test easy way to test
 ```
 
