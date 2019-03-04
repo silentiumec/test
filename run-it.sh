@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#   Use this script to run test
+#   Use this script to run tes
 npm install
 npm run webdriver &
 # Wait for port 4444 to be listening connections
