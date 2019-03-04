@@ -18,7 +18,8 @@
     "protractor": "^5.4.2",
     "protractor-cucumber-framework": "^5.0.0",
     "protractor-jasmine2-screenshot-reporter": "0.5.0",
-    "xmlhttprequest": "^1.8.0"
+    "xmlhttprequest": "^1.8.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "1.7.0"
   },
   "scripts": {
     "prewebdriver": "webdriver-manager update",
