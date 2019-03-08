@@ -9,7 +9,7 @@ When('User navigates to the main page with url {string}', (url) => {
 });
 
 When('User clicks {string} {string}', (_, locator) => {
-    const elem = element.by.css(locator);
+    const elem = element(by.css(locator));
     return elem.click();
 });
 
