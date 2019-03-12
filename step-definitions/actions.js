@@ -21,7 +21,7 @@ When('User clicks {string} {string} with text {string}', (_, locator, text) => {
 When('User moves mouse over {string} {string}', (_,locator) => {
     const elem = element(by.css(locator));
 
-    return browser.actions().mouseMove(elem);
+    return browser.actions().mouseMove(elem).perform();
 });
 
 When('User waits {int} seconds', (second) => {
